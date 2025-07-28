@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="?RNfxd,B|-s,^k!zc)+Z" x="253" y="-36"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="Xok3Vo[fUb}P%_(kB:J^"><field name="LEDS">`
+        . # # # # 
+        . # # . # 
+        . . # . # 
+        . . # # # 
+        . . # # #
+        `</field></block></statement></block><block type="makeyMakey_onPressEvent" id="B:rZ:V]tzvl@TH@TG+|V" x="612" y="-36"><field name="event">makeyMakey.MakeyMakeyPressEventTypes.MouseClicked</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="{2x/m4wTD3DBAD7bst=M"><value name="msg"><shadow type="text" id="a~QD|7^fT6A-,}wzCZ=w"><field name="TEXT">Coeur</field></shadow></value><next><block type="basic_show_icon" id="n%P/Q+SYeKtN_4sNm,+i"><field name="i">IconNames.Heart</field><next><block type="device_show_leds" id="XZM5{QstP.rxfz/R.$?d"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block><block type="pxt-on-start" id="k,nW,*M0~OO}jCO|RXZI" x="0" y="0"><statement name="HANDLER"><block type="makeyMakey_sx1509Init" id="eKF2]:cOG.N`{M*9Ncil"></block></statement></block><block type="makeyMakey_onPressEvent" id="=M(aiV6tQ!%!~h+mO2aE" x="1015" y="-36"><field name="event">makeyMakey.MakeyMakeyPressEventTypes.KeyPressed</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="q=}(;YD?[X:q(Qfw50xP"><value name="msg"><shadow type="text" id=":4BOUQVtd68=$#)AH9iV"><field name="TEXT">Croix</field></shadow></value><next><block type="basic_show_icon" id="IY;xAiiE{^6[2hMDX]9m"><field name="i">IconNames.No</field><next><block type="device_show_leds" id="CWOyx[U/p/k87/2Sp^_9"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
